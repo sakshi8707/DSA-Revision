@@ -27,7 +27,7 @@ vector<vector<int>> setZero(vector<vector<int>> mat,int n,int m)
             if(mat[i][j]==0)
             {
 
-                mat[i][0] = 0; //marking the rowArr
+                mat[i][0] = 0; //marking the row arr
 
                 if(j!=0)
                 {
